@@ -30,16 +30,19 @@ const Banner = () => {
               India's only platform designed for Stock Experts to help them
               build, manage and generate revenue from their follower base
             </Text>
+            <Box sx={styles.subscribe}>
+              <Label>
+                <Button variant="primary">
+                  <a href="https://expert.investwithtribe.com/mytribe">Share</a>
+                </Button>
+              </Label>
+            </Box>
             {/* <Box sx={styles.subscribe}>
               <Label htmlFor="email" variant="styles.srOnly">
-                Email
+                Enter the url
               </Label>
-              <Input
-                id="email"
-                type="email"
-                placeholder="Enter Email address"
-              />
-              <Button variant="primary">Subscribe</Button>
+              <Input id="email" type="text" placeholder="Enter Email address" />
+              <Button variant="primary">Share</Button>
             </Box> */}
             {/* <Box sx={styles.sponsoredBy}>
               <Text as="span">Sponsored by:</Text>
