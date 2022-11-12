@@ -23,11 +23,11 @@ export default function IndexPage() {
         <Banner />
         <Services />
         {/* <ExcitingFeatures /> */}
-        <WorkHard />
+        {/* <WorkHard /> */}
         {/* <UltimateFeatures /> */}
         {/* <HappyCustomer /> */}
         {/* <Blog /> */}
-        <SubscribeUs />
+        {/* <SubscribeUs /> */}
       </Layout>
     </ThemeProvider>
   );

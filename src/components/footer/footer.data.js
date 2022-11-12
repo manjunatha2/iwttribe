@@ -24,10 +24,10 @@ export const menuItems = [
         path: "#!",
         label: "Copyright",
       },
-      {
-        path: "#!",
-        label: "Popular Campaign",
-      },
+      // {
+      //   path: "#!",
+      //   label: "Popular Campaign",
+      // },
     ],
   },
   {
@@ -46,14 +46,14 @@ export const menuItems = [
         path: "#!",
         label: "Terms & Conditions",
       },
-      {
-        path: "#!",
-        label: "Site Map",
-      },
-      {
-        path: "#!",
-        label: "Store Hours",
-      },
+      // {
+      //   path: "#!",
+      //   label: "Site Map",
+      // },
+      // {
+      //   path: "#!",
+      //   label: "Store Hours",
+      // },
     ],
   },
   // {
