@@ -30,7 +30,7 @@ const Banner = () => {
               India's only platform designed for Stock Experts to help them
               build, manage and generate revenue from their follower base
             </Text>
-            <Box sx={styles.subscribe}>
+            {/* <Box sx={styles.subscribe}>
               <Label htmlFor="email" variant="styles.srOnly">
                 Email
               </Label>
@@ -40,7 +40,7 @@ const Banner = () => {
                 placeholder="Enter Email address"
               />
               <Button variant="primary">Subscribe</Button>
-            </Box>
+            </Box> */}
             {/* <Box sx={styles.sponsoredBy}>
               <Text as="span">Sponsored by:</Text>
               <Box sx={styles.logos}>
