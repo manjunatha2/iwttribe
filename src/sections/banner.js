@@ -16,6 +16,7 @@ import paypal from "assets/images/paypal.png";
 import google from "assets/images/google.png";
 import dropbox from "assets/images/dropbox.png";
 import { rgba } from "polished";
+import Share from "./Share";
 
 const Banner = () => {
   return (
@@ -30,34 +31,23 @@ const Banner = () => {
               India's only platform designed for Stock Experts to help them
               build, manage and generate revenue from their follower base
             </Text>
-            <Box sx={styles.subscribe}>
-              <Label>
-                <Button variant="primary">
-                  <a href="https://expert.investwithtribe.com/mytribe">Share</a>
-                </Button>
-              </Label>
-            </Box>
-            {/* <Box sx={styles.subscribe}>
-              <Label htmlFor="email" variant="styles.srOnly">
-                Enter the url
-              </Label>
-              <Input id="email" type="text" placeholder="Enter Email address" />
-              <Button variant="primary">Share</Button>
-            </Box> */}
-            {/* <Box sx={styles.sponsoredBy}>
-              <Text as="span">Sponsored by:</Text>
-              <Box sx={styles.logos}>
-                <Box as="figure" sx={{ display: "flex" }}>
-                  <Image src={paypal} alt="paypal" />
-                </Box>
-                <Box as="figure" sx={{ display: "flex" }}>
-                  <Image src={google} alt="google" />
-                </Box>
-                <Box as="figure" sx={{ display: "flex" }}>
-                  <Image src={dropbox} alt="dropbox" />
-                </Box>
+            <Box>
+              <Box sx={styles.subscribe}>
+                <Label>
+                  <Button variant="primary">
+                    <a
+                      href="https://expert.investwithtribe.com/mytribe"
+                      target="_blank"
+                    >
+                      Share
+                    </a>
+                  </Button>
+                </Label>
               </Box>
-            </Box> */}
+              <Box sx={styles.share}>
+                <Share />
+              </Box>
+            </Box>
           </Box>
           <Box as="figure" sx={styles.illustration}>
             <Image src={banner} alt="banner" />
@@ -110,6 +100,9 @@ const styles = {
       minHeight: ["45px", null, null, 60, 50, null, 60],
       fontSize: ["14px", "14px", "16px"],
     },
+  },
+  share: {
+    marginTop: "1rem",
   },
   sponsoredBy: {
     display: "flex",
