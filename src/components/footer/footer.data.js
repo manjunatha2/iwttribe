@@ -24,10 +24,6 @@ export const menuItems = [
         path: "#!",
         label: "Copyright",
       },
-      // {
-      //   path: "#!",
-      //   label: "Popular Campaign",
-      // },
     ],
   },
   {
@@ -46,14 +42,6 @@ export const menuItems = [
         path: "#!",
         label: "Terms & Conditions",
       },
-      // {
-      //   path: "#!",
-      //   label: "Site Map",
-      // },
-      // {
-      //   path: "#!",
-      //   label: "Store Hours",
-      // },
     ],
   },
   // {
@@ -99,12 +87,7 @@ export const menuItems = [
       {
         path: "#!",
         icon: github,
-        label: "Github",
-      },
-      {
-        path: "#!",
-        icon: dribbble,
-        label: "Dribbble",
+        label: "Instagram",
       },
     ],
   },
