@@ -11,7 +11,11 @@ import {
 } from "react-share";
 import { Box } from "theme-ui";
 
-const investorFrontend = "https://investor.investwithtribe.com";
+const apps = {
+  investor: "https://investor.investwithtribe.com",
+  expert: "https://expert.investwithtribe.com",
+};
+
 const Share = () => {
   const getMessage = {
     telegram: function (url, message) {
@@ -44,8 +48,8 @@ const Share = () => {
     },
   };
 
-  const messageText = "Hello World";
-  const url = investorFrontend;
+  const messageText = `Hi, I found this awesome app for sharing my trade. Do checkout here`;
+  const url = apps.expert;
 
   const allMessages = {
     telegram: getMessage.telegram(url, messageText),
@@ -55,7 +59,7 @@ const Share = () => {
   };
 
   return (
-    <div style={{ display: "flex" }}>
+    <Box sx={styles.container}>
       <Box sx={styles.shareIcon}>
         <a
           href={`https://wa.me/?text=${allMessages.whatsapp}`}
@@ -66,30 +70,34 @@ const Share = () => {
         </a>
       </Box>
       <Box sx={styles.shareIcon}>
-        <TelegramShareButton url={allMessages.telegram}>
+        <TelegramShareButton url={allMessages.telegram} title="Telegram">
           <TelegramIcon size={50} round />
         </TelegramShareButton>
       </Box>
 
       <Box sx={styles.shareIcon}>
-        <TwitterShareButton url={allMessages.twitter}>
+        <TwitterShareButton url={allMessages.twitter} title="Twitter">
           <TwitterIcon size={50} round />
         </TwitterShareButton>
       </Box>
 
       <Box sx={styles.shareIcon}>
-        <RedditShareButton url={allMessages.reddit}>
+        <RedditShareButton url={allMessages.reddit} title="Reddit">
           <RedditIcon size={50} round />
         </RedditShareButton>
       </Box>
-    </div>
+    </Box>
   );
 };
 
 export default Share;
 
 const styles = {
+  container: {
+    display: "block",
+  },
   shareIcon: {
+    display: "inline-block",
     paddingRight: "0.5rem",
   },
 };
