@@ -27,10 +27,9 @@ const Share = () => {
 
     whatsapp: function (url, message) {
       const urlWhatsapp = new URL(url);
-      const messageText = "This is hello world from investwithtribe.com";
-      const messageWhatsapp = `${messageText} ${urlWhatsapp}`;
+      const messageWhatsapp = `${message} ${urlWhatsapp}`;
 
-      const encodedWhatsappMessage = encodeURIComponent(messageWhatsapp);
+      const encodedWhatsappMessage = messageWhatsapp;
       return encodedWhatsappMessage;
     },
     twitter: function (url, message) {
@@ -61,13 +60,9 @@ const Share = () => {
   return (
     <Box sx={styles.container}>
       <Box sx={styles.shareIcon}>
-        <a
-          href={`https://wa.me/?text=${allMessages.whatsapp}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <WhatsappShareButton url={allMessages.whatsapp}>
           <WhatsappIcon size={50} round></WhatsappIcon>
-        </a>
+        </WhatsappShareButton>
       </Box>
       <Box sx={styles.shareIcon}>
         <TelegramShareButton url={allMessages.telegram} title="Telegram">
