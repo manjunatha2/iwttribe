@@ -17,6 +17,7 @@ import google from "assets/images/google.png";
 import dropbox from "assets/images/dropbox.png";
 import { rgba } from "polished";
 import Share from "./Share";
+// import Registration from "./RegistrationForm";
 
 const Banner = () => {
   return (
@@ -52,6 +53,9 @@ const Banner = () => {
           <Box as="figure" sx={styles.illustration}>
             <Image src={banner} alt="banner" />
           </Box>
+          {/* <Box>
+            <Registration />
+          </Box> */}
         </Box>
       </Container>
     </Box>
