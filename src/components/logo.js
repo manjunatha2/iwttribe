@@ -3,7 +3,6 @@
 import { jsx } from "theme-ui";
 import { Link } from "components/link";
 import LogoPng from "components/icons/tribe.png";
-import LogoWhitePng from "components/icons/logo-white.png";
 import LogoSvg from "components/icons/logosvg.svg";
 
 export default function Logo({ isSticky, footer, ...props }) {
