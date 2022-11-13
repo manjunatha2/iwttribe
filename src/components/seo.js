@@ -1,11 +1,12 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
+import competionPoster from "assets/images/poster.png";
 
 export default function SEO({
-  description = 'startup landing descriptions',
-  author = 'RedQ, Inc',
+  description = "startup landing descriptions",
+  author = "RedQ, Inc",
   meta,
-  title = 'startup landing title',
+  title = "startup landing title",
 }) {
   const metaData = [
     {
@@ -23,6 +24,10 @@ export default function SEO({
     {
       property: `og:type`,
       content: `website`,
+    },
+    {
+      property: `og:image`,
+      content: `https://dev-investwithtribe.s3.ap-south-1.amazonaws.com/poster.png`,
     },
     {
       name: `twitter:card`,

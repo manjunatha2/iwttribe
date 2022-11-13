@@ -12,7 +12,7 @@ import {
 } from "theme-ui";
 import Input from "components/input";
 import banner from "assets/images/banner.png";
-import competionPoster from "assets/images/competition.png";
+import competionPoster from "assets/images/poster.png";
 import paypal from "assets/images/paypal.png";
 import google from "assets/images/google.png";
 import dropbox from "assets/images/dropbox.png";
