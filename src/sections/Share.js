@@ -11,9 +11,10 @@ import {
 } from "react-share";
 import { Box } from "theme-ui";
 
-const apps = {
+const links = {
   investor: "https://investor.investwithtribe.com",
   expert: "https://expert.investwithtribe.com",
+  worldCup: "https://go.investwithtribe.com/wc2022",
 };
 
 const Share = () => {
@@ -47,8 +48,8 @@ const Share = () => {
     },
   };
 
-  const messageText = `Hi, I found this awesome app for sharing my trade. Do checkout here`;
-  const url = apps.expert;
+  const messageText = `Hi, I registered for Nifty World Cup 2022 by investwithtribe. Do Checkout here ##niftyworldcup2022 & #investwithtribe`;
+  const url = links.worldCup;
 
   const allMessages = {
     telegram: getMessage.telegram(url, messageText),
