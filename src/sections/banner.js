@@ -12,6 +12,7 @@ import {
 } from "theme-ui";
 import Input from "components/input";
 import banner from "assets/images/banner.png";
+import competionPoster from "assets/images/competition.png";
 import paypal from "assets/images/paypal.png";
 import google from "assets/images/google.png";
 import dropbox from "assets/images/dropbox.png";
@@ -57,7 +58,12 @@ const Banner = () => {
             </Box>
           </Box>
           <Box as="figure" sx={styles.illustration}>
-            <Image src={banner} alt="banner" />
+            <Image
+              src={competionPoster}
+              alt="banner"
+              height={900}
+              width={500}
+            />
           </Box>
           {/* <Box>
             <Registration />
