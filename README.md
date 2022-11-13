@@ -29,12 +29,11 @@ The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](htt
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
 1. Add register button in the page. Links to zoho form
-2. Change Heading 
+2. Change Heading
 3. Share button default twitter
 4. Add image in the landing page
-5. Update the share message 
+5. Update the share message
 6. Create share monetize -> expert app
 7. Add meta image in share message
-8. Share message link is go.investwithtribe.com
+8. Share message link is go.investwithtribe.com/wc2022

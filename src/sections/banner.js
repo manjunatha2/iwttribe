@@ -26,11 +26,17 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading as="h1">
-              Earn 2nd income from your stock expertise. For Free
+              Thank you for registering in
+              <br />
+              Nifty WC 2022
+              <br />
+              by investwithtribe
             </Heading>
             <Text as="p">
-              India's only platform designed for Stock Experts to help them
-              build, manage and generate revenue from their follower base
+              What's next?
+              <br />
+              Retweet/ Repost the post (below) to your socials by tagging Invest
+              With Tribe with the hashtags #niftyworldcup2022 & #investwithtribe
             </Text>
             <Box>
               <Box sx={styles.subscribe}>
