@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Box, Container } from "theme-ui";
+import { jsx, Box, Container, Button } from "theme-ui";
 import SectionHeading from "components/section-heading";
 import Feature from "components/cards/feature";
 
@@ -49,6 +49,17 @@ const Services = () => {
             <Feature key={item.id} className="feature-item" data={item} />
           ))}
         </Box>
+        <Box sx={styles.features.button}>
+          <Button variant="primary">
+            <a
+              href="https://expert.investwithtribe.com/mytribe"
+              target="_blank"
+              sx={styles.features.button.a}
+            >
+              Start Creating Trades
+            </a>
+          </Button>
+        </Box>
       </Container>
     </Box>
   );
@@ -80,6 +91,15 @@ const styles = {
       "repeat(2, 1fr)",
       "repeat(3, 1fr)",
     ],
+    button: {
+      display: "flex",
+      mt: "30px",
+      justifyContent: "center",
+      a: {
+        textDecoration: "none",
+        color: "white",
+      },
+    },
     ".feature-item": {
       display: ["block", "block", "flex", "flex", "block", "flex"],
       textAlign: ["center", "center", "left", "left", "center", "left"],
