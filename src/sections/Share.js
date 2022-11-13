@@ -48,7 +48,7 @@ const Share = () => {
     },
   };
 
-  const messageText = `Hi, I registered for Nifty World Cup 2022 by investwithtribe. Do Checkout here ##niftyworldcup2022 & #investwithtribe`;
+  const messageText = `Hi, I registered for Nifty World Cup 2022 by investwithtribe. Do Checkout here #niftyworldcup2022, #investwithtribe`;
   const url = links.worldCup;
 
   const allMessages = {

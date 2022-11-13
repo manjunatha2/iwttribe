@@ -42,14 +42,17 @@ const Banner = () => {
             <Box>
               <Box sx={styles.subscribe}>
                 <Label>
-                  <Button variant="primary">
+                  <Button variant="primary" sx={styles.primaryButton}>
+                    <a href="https://go.investwithtribe.com/wc2022">Register</a>
+                  </Button>
+                  {/* <Button variant="secondary">
                     <a
                       href="https://expert.investwithtribe.com/mytribe"
                       target="_blank"
                     >
                       Share
                     </a>
-                  </Button>
+                  </Button> */}
                 </Label>
               </Box>
               <Box sx={styles.share}>
@@ -115,7 +118,21 @@ const styles = {
     button: {
       minHeight: ["45px", null, null, 60, 50, null, 60],
       fontSize: ["14px", "14px", "16px"],
+      marginRight: ["10px"],
+      a: {
+        textDecoration: "none",
+        color: "white",
+      },
     },
+  },
+  primaryButton: {
+    minHeight: ["45px", null, null, 60, 50, null, 60],
+    fontSize: ["14px", "14px", "16px"],
+    marginRight: ["10px"],
+    bg: "dodgeblue",
+  },
+  registerAnchor: {
+    textDecoration: "none",
   },
   share: {
     marginTop: "1rem",
