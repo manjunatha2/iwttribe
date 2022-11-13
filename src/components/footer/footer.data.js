@@ -8,21 +8,18 @@ export const menuItems = [
     id: 2,
     title: "About Us",
     items: [
+      // {
+      //   path: "#!",
+      //   label: "Support Center",
+      // },
+
       {
-        path: "#!",
-        label: "Support Center",
-      },
-      {
-        path: "#!",
-        label: "Customer Support",
-      },
-      {
-        path: "#!",
+        path: "https://investor.investwithtribe.com/about",
         label: "About Us",
       },
       {
-        path: "#!",
-        label: "Copyright",
+        path: "https://expert.investwithtribe.com/refundAndCancellation",
+        label: "User Guidelines",
       },
     ],
   },
@@ -30,17 +27,20 @@ export const menuItems = [
     id: 3,
     title: "Our Information",
     items: [
+      // {
+      //   path: "#!",
+      //   label: "Return Policy ",
+      //   type: 'external'
+      // },
       {
-        path: "#!",
-        label: "Return Policy ",
-      },
-      {
-        path: "#!",
+        path: "https://expert.investwithtribe.com/privacy",
         label: "Privacy Policy",
+        type: "external",
       },
       {
-        path: "#!",
+        path: "https://expert.investwithtribe.com/terms-and-conditions",
         label: "Terms & Conditions",
+        type: "external",
       },
     ],
   },
@@ -80,14 +80,9 @@ export const menuItems = [
         label: "Facebook",
       },
       {
-        path: "#!",
+        path: "https://twitter.com/investwithtribe",
         icon: twitter,
         label: "Twitter",
-      },
-      {
-        path: "#!",
-        icon: github,
-        label: "Instagram",
       },
     ],
   },
