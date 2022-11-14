@@ -40,12 +40,12 @@ const Banner = () => {
               With Tribe with the hashtags #niftyworldcup2022 & #investwithtribe
             </Text>
             <Box>
-              <Box sx={styles.subscribe}>
-                {/* <Label>
+              {/* <Box sx={styles.subscribe}> */}
+              {/* <Label>
                   <Button variant="primary" sx={styles.primaryButton}>
                     <a href="https://go.investwithtribe.com/wc2022">Register</a>
                   </Button> */}
-                {/* <Button variant="secondary">
+              {/* <Button variant="secondary">
                     <a
                       href="https://expert.investwithtribe.com/mytribe"
                       target="_blank"
@@ -53,8 +53,8 @@ const Banner = () => {
                       Share
                     </a>
                   </Button> */}
-                {/* </Label> */}
-              </Box>
+              {/* </Label> */}
+              {/* </Box> */}
               <Box sx={styles.share}>
                 <Share />
               </Box>
@@ -135,7 +135,7 @@ const styles = {
     textDecoration: "none",
   },
   share: {
-    marginTop: "1rem",
+    marginTop: "0.5rem",
   },
   sponsoredBy: {
     display: "flex",
