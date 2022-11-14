@@ -41,11 +41,11 @@ const Banner = () => {
             </Text>
             <Box>
               <Box sx={styles.subscribe}>
-                <Label>
+                {/* <Label>
                   <Button variant="primary" sx={styles.primaryButton}>
                     <a href="https://go.investwithtribe.com/wc2022">Register</a>
-                  </Button>
-                  {/* <Button variant="secondary">
+                  </Button> */}
+                {/* <Button variant="secondary">
                     <a
                       href="https://expert.investwithtribe.com/mytribe"
                       target="_blank"
@@ -53,7 +53,7 @@ const Banner = () => {
                       Share
                     </a>
                   </Button> */}
-                </Label>
+                {/* </Label> */}
               </Box>
               <Box sx={styles.share}>
                 <Share />
