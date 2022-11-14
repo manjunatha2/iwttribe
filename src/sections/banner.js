@@ -135,7 +135,7 @@ const styles = {
     textDecoration: "none",
   },
   share: {
-    marginTop: "0.5rem",
+    marginTop: "0.75rem",
   },
   sponsoredBy: {
     display: "flex",
