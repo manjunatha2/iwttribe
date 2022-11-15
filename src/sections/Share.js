@@ -61,24 +61,36 @@ const Share = () => {
   return (
     <Box sx={styles.container}>
       <Box sx={styles.shareIcon}>
-        <WhatsappShareButton url={allMessages.whatsapp}>
+        <WhatsappShareButton
+          url={allMessages.whatsapp}
+          title="Join me in this competition\n"
+        >
           <WhatsappIcon size={50} round></WhatsappIcon>
         </WhatsappShareButton>
       </Box>
       <Box sx={styles.shareIcon}>
-        <TelegramShareButton url={allMessages.telegram} title="Telegram">
+        <TelegramShareButton
+          url={allMessages.telegram}
+          title="Join me in this competition\n"
+        >
           <TelegramIcon size={50} round />
         </TelegramShareButton>
       </Box>
 
       <Box sx={styles.shareIcon}>
-        <TwitterShareButton url={allMessages.twitter} title="Twitter">
+        <TwitterShareButton
+          url={allMessages.twitter}
+          title="Join me in this competition\n"
+        >
           <TwitterIcon size={50} round />
         </TwitterShareButton>
       </Box>
 
       <Box sx={styles.shareIcon}>
-        <RedditShareButton url={allMessages.reddit} title="Reddit">
+        <RedditShareButton
+          url={allMessages.reddit}
+          title="Join me in this competition\n"
+        >
           <RedditIcon size={50} round />
         </RedditShareButton>
       </Box>
