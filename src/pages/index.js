@@ -5,7 +5,10 @@ import SEO from "components/SEO";
 import Layout from "components/layout";
 import Banner from "sections/banner";
 import Services from "sections/services";
+import AboutUs from "sections/AboutUs";
 import ExcitingFeatures from "sections/exciting-features";
+import Rules from "sections/Rules";
+import Prizes from "sections/Prizes";
 import WorkHard from "sections/work-hard";
 import UltimateFeatures from "sections/ultimate-features";
 import HappyCustomer from "sections/happy-customer";
@@ -21,6 +24,9 @@ export default function IndexPage() {
           description="Invest Better Invest Together"
         />
         <Banner />
+        <AboutUs />
+        <Rules />
+        <Prizes />
         <Services />
         {/* <ExcitingFeatures /> */}
         {/* <WorkHard /> */}
