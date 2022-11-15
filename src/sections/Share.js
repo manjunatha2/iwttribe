@@ -28,7 +28,7 @@ const Share = () => {
 
     whatsapp: function (url, message) {
       const urlWhatsapp = new URL(url);
-      const messageWhatsapp = `"${message} ${urlWhatsapp}"`;
+      const messageWhatsapp = `${message} ${urlWhatsapp}`;
 
       const encodedWhatsappMessage = messageWhatsapp;
       return encodedWhatsappMessage;
