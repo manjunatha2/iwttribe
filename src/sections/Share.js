@@ -63,7 +63,7 @@ const Share = () => {
       <Box sx={styles.shareIcon}>
         <WhatsappShareButton
           url={allMessages.whatsapp}
-          title="Join me in this competition\n"
+          title="*Join me in this competition*"
         >
           <WhatsappIcon size={50} round></WhatsappIcon>
         </WhatsappShareButton>
