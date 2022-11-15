@@ -37,3 +37,19 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 6. Create share monetize -> expert app
 7. Add meta image in share message
 8. Share message link is go.investwithtribe.com/wc2022
+
+Todo
+
+Add register button in the page. Links to zoho form
+Change Heading
+Share button default twitter
+Add image in the landing page
+Update the share message
+Create share monetize -> expert app
+Add meta image in landing page
+Share message link is go.investwithtribe.com/wc2022
+Change tribe logo
+Added meta image in share page
+
+- add a new tab for world cup in
+- separate new data

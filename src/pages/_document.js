@@ -15,7 +15,7 @@ class CustomDocument extends Document {
             crossOrigin="anonymous"
             href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap"
           />
-          <title>Nify World Cup 2022 by investwithtribe</title>
+          {/* <title>Nify World Cup 2022 by investwithtribe</title> */}
           <meta
             name="description"
             content="Nify World Cup brought by investwithtribe | Invest Better Invest together"
