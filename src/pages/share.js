@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
+import Head from "next/head";
 
 export default function SharePage() {
   useEffect(() => {
-    window.location.assign('https://go.investwithtribe.com/wc2022"');
+    window.location.assign("https://go.investwithtribe.com/wc2022");
   }, []);
 
   return (
