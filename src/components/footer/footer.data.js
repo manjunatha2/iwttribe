@@ -8,11 +8,6 @@ export const menuItems = [
     id: 2,
     title: "About Us",
     items: [
-      // {
-      //   path: "#!",
-      //   label: "Support Center",
-      // },
-
       {
         path: "https://investor.investwithtribe.com/about",
         label: "About Us",
@@ -20,6 +15,14 @@ export const menuItems = [
       {
         path: "https://expert.investwithtribe.com/refundAndCancellation",
         label: "User Guidelines",
+      },
+      {
+        path: "https://expert.investwithtribe.com",
+        label: "Expert App",
+      },
+      {
+        path: "https://investor.investwithtribe.com",
+        label: "Investor App",
       },
     ],
   },
