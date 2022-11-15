@@ -14,7 +14,7 @@ import { Box } from "theme-ui";
 const links = {
   investor: "https://investor.investwithtribe.com",
   expert: "https://expert.investwithtribe.com",
-  worldCup: "https://niftyworldcup.investwithtribe.com/share",
+  worldCup: "https://niftyworldcup2022.investwithtribe.com/share",
 };
 
 const Share = () => {
