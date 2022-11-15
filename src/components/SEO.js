@@ -49,7 +49,7 @@ SEO.defaultProps = {
     "Nify World Cup brought by investwithtribe | Invest Better Invest together",
   url: "https://niftyworldcup2022.investwithtribe.com/share",
   image:
-    "https://dev-investwithtribe.s3.ap-south-1.amazonaws.com/shareworldcup2022.png",
+    "https://dev-investwithtribe.s3.ap-south-1.amazonaws.com/shareworldcup2022-small.png",
 };
 
 export default SEO;
