@@ -28,7 +28,7 @@ const Share = () => {
 
     whatsapp: function (url, message) {
       const urlWhatsapp = new URL(url);
-      const messageWhatsapp = `${message} ${urlWhatsapp}`;
+      const messageWhatsapp = `"${message} ${urlWhatsapp}"`;
 
       const encodedWhatsappMessage = messageWhatsapp;
       return encodedWhatsappMessage;
@@ -63,7 +63,7 @@ const Share = () => {
       <Box sx={styles.shareIcon}>
         <WhatsappShareButton
           url={allMessages.whatsapp}
-          title="*Join me in this competition*"
+          // title="*Join me in this competition*"
         >
           <WhatsappIcon size={50} round></WhatsappIcon>
         </WhatsappShareButton>
@@ -71,7 +71,7 @@ const Share = () => {
       <Box sx={styles.shareIcon}>
         <TelegramShareButton
           url={allMessages.telegram}
-          title="Join me in this competition\n"
+          // title="Join me in this competition\n"
         >
           <TelegramIcon size={50} round />
         </TelegramShareButton>
@@ -80,7 +80,7 @@ const Share = () => {
       <Box sx={styles.shareIcon}>
         <TwitterShareButton
           url={allMessages.twitter}
-          title="Join me in this competition\n"
+          // title="Join me in this competition\n"
         >
           <TwitterIcon size={50} round />
         </TwitterShareButton>
@@ -89,7 +89,7 @@ const Share = () => {
       <Box sx={styles.shareIcon}>
         <RedditShareButton
           url={allMessages.reddit}
-          title="Join me in this competition\n"
+          // title="Join me in this competition\n"
         >
           <RedditIcon size={50} round />
         </RedditShareButton>
